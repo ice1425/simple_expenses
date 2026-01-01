@@ -3,7 +3,7 @@ const app = express();
 const dotenv = require("dotenv");
 const cors = require("cors");
 dotenv.config();
-const PORT = process.env.PORT;
+const PORT = process.env.DB_PORT;
 
 const expensesRoute = require("./routes/categoryRoute")
 
